@@ -56,7 +56,7 @@ _default value:_ __'before'__
 Defines the term used when building the before-hook name.
 
 ```js
-Hookie(name, func, { type: 'postfix' })
+Hookie(name, func, { before: 'pre' })
 ```
 
 ### after
@@ -66,5 +66,5 @@ _default value:_ __'after'__
 Defines the term used when building the after-hook name.
 
 ```js
-Hookie(name, func, { type: 'postfix' })
+Hookie(name, func, { after: 'post' })
 ```

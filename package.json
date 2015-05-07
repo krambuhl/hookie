@@ -2,7 +2,7 @@
   "name": "hookie",
   "description": "Simple function lifecycle hooks",
   "homepage": "https://github.com/krambuhl/hookie",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "main": "dist/index.js",
   "scripts": {
     "test": "tape tests/*.js | tap-spec",
